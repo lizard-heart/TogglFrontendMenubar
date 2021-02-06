@@ -1,0 +1,4 @@
+framework module TogglCore {
+  header "TogglCore-Swift.h"
+  requires objc
+}

@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA1243AB25B921430047143E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1243AA25B921430047143E /* AppDelegate.swift */; };
+		BA1243AD25B921430047143E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1243AC25B921430047143E /* ViewController.swift */; };
+		BA1243AF25B921440047143E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA1243AE25B921440047143E /* Assets.xcassets */; };
+		BA1243B225B921440047143E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1243B025B921440047143E /* Main.storyboard */; };
+		BA1243BE25B921440047143E /* TogglFrontendMenubarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1243BD25B921440047143E /* TogglFrontendMenubarTests.swift */; };
+		BA1243C925B921440047143E /* TogglFrontendMenubarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1243C825B921440047143E /* TogglFrontendMenubarUITests.swift */; };
+		BAC2F18625B948690073772D /* TogglCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC2F18525B948690073772D /* TogglCore.framework */; };
+		BAC2F18725B948690073772D /* TogglCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BAC2F18525B948690073772D /* TogglCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA1243BA25B921440047143E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA12439F25B921430047143E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA1243A625B921430047143E;
+			remoteInfo = TogglFrontendMenubar;
+		};
+		BA1243C525B921440047143E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA12439F25B921430047143E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA1243A625B921430047143E;
+			remoteInfo = TogglFrontendMenubar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BAC2F18825B948690073772D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BAC2F18725B948690073772D /* TogglCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BA1243A725B921430047143E /* TogglFrontendMenubar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TogglFrontendMenubar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1243AA25B921430047143E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA1243AC25B921430047143E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA1243AE25B921440047143E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA1243B125B921440047143E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA1243B325B921440047143E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA1243B425B921440047143E /* TogglFrontendMenubar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TogglFrontendMenubar.entitlements; sourceTree = "<group>"; };
+		BA1243B925B921440047143E /* TogglFrontendMenubarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TogglFrontendMenubarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1243BD25B921440047143E /* TogglFrontendMenubarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TogglFrontendMenubarTests.swift; sourceTree = "<group>"; };
+		BA1243BF25B921440047143E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA1243C425B921440047143E /* TogglFrontendMenubarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TogglFrontendMenubarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1243C825B921440047143E /* TogglFrontendMenubarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TogglFrontendMenubarUITests.swift; sourceTree = "<group>"; };
+		BA1243CA25B921440047143E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAC2F18525B948690073772D /* TogglCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TogglCore.framework; path = Carthage/Build/Mac/TogglCore.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA1243A425B921430047143E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC2F18625B948690073772D /* TogglCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1243B625B921440047143E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1243C125B921440047143E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA12439E25B921430047143E = {
+			isa = PBXGroup;
+			children = (
+				BA1243A925B921430047143E /* TogglFrontendMenubar */,
+				BA1243BC25B921440047143E /* TogglFrontendMenubarTests */,
+				BA1243C725B921440047143E /* TogglFrontendMenubarUITests */,
+				BA1243A825B921430047143E /* Products */,
+				BA1243EC25B931900047143E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA1243A825B921430047143E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA1243A725B921430047143E /* TogglFrontendMenubar.app */,
+				BA1243B925B921440047143E /* TogglFrontendMenubarTests.xctest */,
+				BA1243C425B921440047143E /* TogglFrontendMenubarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA1243A925B921430047143E /* TogglFrontendMenubar */ = {
+			isa = PBXGroup;
+			children = (
+				BA1243AA25B921430047143E /* AppDelegate.swift */,
+				BA1243AC25B921430047143E /* ViewController.swift */,
+				BA1243AE25B921440047143E /* Assets.xcassets */,
+				BA1243B025B921440047143E /* Main.storyboard */,
+				BA1243B325B921440047143E /* Info.plist */,
+				BA1243B425B921440047143E /* TogglFrontendMenubar.entitlements */,
+			);
+			path = TogglFrontendMenubar;
+			sourceTree = "<group>";
+		};
+		BA1243BC25B921440047143E /* TogglFrontendMenubarTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA1243BD25B921440047143E /* TogglFrontendMenubarTests.swift */,
+				BA1243BF25B921440047143E /* Info.plist */,
+			);
+			path = TogglFrontendMenubarTests;
+			sourceTree = "<group>";
+		};
+		BA1243C725B921440047143E /* TogglFrontendMenubarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA1243C825B921440047143E /* TogglFrontendMenubarUITests.swift */,
+				BA1243CA25B921440047143E /* Info.plist */,
+			);
+			path = TogglFrontendMenubarUITests;
+			sourceTree = "<group>";
+		};
+		BA1243EC25B931900047143E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAC2F18525B948690073772D /* TogglCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA1243A625B921430047143E /* TogglFrontendMenubar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA1243CD25B921440047143E /* Build configuration list for PBXNativeTarget "TogglFrontendMenubar" */;
+			buildPhases = (
+				BA1243A325B921430047143E /* Sources */,
+				BA1243A425B921430047143E /* Frameworks */,
+				BA1243A525B921430047143E /* Resources */,
+				BAC2F18825B948690073772D /* Embed Frameworks */,
+				BAC2F18D25B9488C0073772D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TogglFrontendMenubar;
+			productName = TogglFrontendMenubar;
+			productReference = BA1243A725B921430047143E /* TogglFrontendMenubar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA1243B825B921440047143E /* TogglFrontendMenubarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA1243D025B921440047143E /* Build configuration list for PBXNativeTarget "TogglFrontendMenubarTests" */;
+			buildPhases = (
+				BA1243B525B921440047143E /* Sources */,
+				BA1243B625B921440047143E /* Frameworks */,
+				BA1243B725B921440047143E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA1243BB25B921440047143E /* PBXTargetDependency */,
+			);
+			name = TogglFrontendMenubarTests;
+			productName = TogglFrontendMenubarTests;
+			productReference = BA1243B925B921440047143E /* TogglFrontendMenubarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA1243C325B921440047143E /* TogglFrontendMenubarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA1243D325B921440047143E /* Build configuration list for PBXNativeTarget "TogglFrontendMenubarUITests" */;
+			buildPhases = (
+				BA1243C025B921440047143E /* Sources */,
+				BA1243C125B921440047143E /* Frameworks */,
+				BA1243C225B921440047143E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA1243C625B921440047143E /* PBXTargetDependency */,
+			);
+			name = TogglFrontendMenubarUITests;
+			productName = TogglFrontendMenubarUITests;
+			productReference = BA1243C425B921440047143E /* TogglFrontendMenubarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA12439F25B921430047143E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					BA1243A625B921430047143E = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					BA1243B825B921440047143E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = BA1243A625B921430047143E;
+					};
+					BA1243C325B921440047143E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = BA1243A625B921430047143E;
+					};
+				};
+			};
+			buildConfigurationList = BA1243A225B921430047143E /* Build configuration list for PBXProject "TogglFrontendMenubar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA12439E25B921430047143E;
+			productRefGroup = BA1243A825B921430047143E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA1243A625B921430047143E /* TogglFrontendMenubar */,
+				BA1243B825B921440047143E /* TogglFrontendMenubarTests */,
+				BA1243C325B921440047143E /* TogglFrontendMenubarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA1243A525B921430047143E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1243AF25B921440047143E /* Assets.xcassets in Resources */,
+				BA1243B225B921440047143E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1243B725B921440047143E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1243C225B921440047143E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BAC2F18D25B9488C0073772D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/Mac/TogglCore.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA1243A325B921430047143E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1243AD25B921430047143E /* ViewController.swift in Sources */,
+				BA1243AB25B921430047143E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1243B525B921440047143E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1243BE25B921440047143E /* TogglFrontendMenubarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1243C025B921440047143E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1243C925B921440047143E /* TogglFrontendMenubarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA1243BB25B921440047143E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA1243A625B921430047143E /* TogglFrontendMenubar */;
+			targetProxy = BA1243BA25B921440047143E /* PBXContainerItemProxy */;
+		};
+		BA1243C625B921440047143E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA1243A625B921430047143E /* TogglFrontendMenubar */;
+			targetProxy = BA1243C525B921440047143E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA1243B025B921440047143E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA1243B125B921440047143E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA1243CB25B921440047143E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA1243CC25B921440047143E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BA1243CE25B921440047143E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TogglFrontendMenubar/TogglFrontendMenubar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7UZ54V5BU3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = TogglFrontendMenubar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = henry.TogglFrontendMenubar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BA1243CF25B921440047143E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TogglFrontendMenubar/TogglFrontendMenubar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7UZ54V5BU3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = TogglFrontendMenubar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = henry.TogglFrontendMenubar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BA1243D125B921440047143E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7UZ54V5BU3;
+				INFOPLIST_FILE = TogglFrontendMenubarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = henry.TogglFrontendMenubarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TogglFrontendMenubar.app/Contents/MacOS/TogglFrontendMenubar";
+			};
+			name = Debug;
+		};
+		BA1243D225B921440047143E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7UZ54V5BU3;
+				INFOPLIST_FILE = TogglFrontendMenubarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = henry.TogglFrontendMenubarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TogglFrontendMenubar.app/Contents/MacOS/TogglFrontendMenubar";
+			};
+			name = Release;
+		};
+		BA1243D425B921440047143E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7UZ54V5BU3;
+				INFOPLIST_FILE = TogglFrontendMenubarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = henry.TogglFrontendMenubarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TogglFrontendMenubar;
+			};
+			name = Debug;
+		};
+		BA1243D525B921440047143E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7UZ54V5BU3;
+				INFOPLIST_FILE = TogglFrontendMenubarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = henry.TogglFrontendMenubarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TogglFrontendMenubar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA1243A225B921430047143E /* Build configuration list for PBXProject "TogglFrontendMenubar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1243CB25B921440047143E /* Debug */,
+				BA1243CC25B921440047143E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA1243CD25B921440047143E /* Build configuration list for PBXNativeTarget "TogglFrontendMenubar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1243CE25B921440047143E /* Debug */,
+				BA1243CF25B921440047143E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA1243D025B921440047143E /* Build configuration list for PBXNativeTarget "TogglFrontendMenubarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1243D125B921440047143E /* Debug */,
+				BA1243D225B921440047143E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA1243D325B921440047143E /* Build configuration list for PBXNativeTarget "TogglFrontendMenubarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1243D425B921440047143E /* Debug */,
+				BA1243D525B921440047143E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA12439F25B921430047143E /* Project object */;
+}
