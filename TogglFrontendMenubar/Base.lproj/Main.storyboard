@@ -702,42 +702,42 @@
                                         </textFieldCell>
                                     </textField>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="iuo-Om-l18">
-                                        <rect key="frame" x="-6" y="166" width="236" height="32"/>
+                                        <rect key="frame" x="-7" y="166" width="238" height="32"/>
                                         <buttonCell key="cell" type="push" title="Add to Saved Timers" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="vpN-jC-MdN">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
                                     </button>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="pao-VI-0mS">
-                                        <rect key="frame" x="-6" y="132" width="236" height="32"/>
+                                        <rect key="frame" x="-7" y="132" width="238" height="32"/>
                                         <buttonCell key="cell" type="push" title="Stop Timer" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="M2U-wF-JdS">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
                                     </button>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Q3Y-Hn-j3a">
-                                        <rect key="frame" x="-6" y="97" width="236" height="32"/>
+                                        <rect key="frame" x="-7" y="97" width="238" height="32"/>
                                         <buttonCell key="cell" type="push" title="Start Timer" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="YOe-vB-g7W">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
                                     </button>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rn5-nT-i0s">
-                                        <rect key="frame" x="-6" y="62" width="236" height="32"/>
+                                        <rect key="frame" x="-7" y="62" width="238" height="32"/>
                                         <buttonCell key="cell" type="push" title="Update Current Timer" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="O4f-Ew-QYx">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
                                     </button>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Mev-DC-WOe">
-                                        <rect key="frame" x="-6" y="28" width="236" height="32"/>
+                                        <rect key="frame" x="-7" y="28" width="238" height="32"/>
                                         <buttonCell key="cell" type="push" title="Continue From Last Time Entry" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="88b-b8-VOu">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
                                     </button>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Rbw-Zw-cYo">
-                                        <rect key="frame" x="-6" y="-7" width="236" height="32"/>
+                                        <rect key="frame" x="-7" y="-7" width="238" height="32"/>
                                         <buttonCell key="cell" type="push" title="Add Time Entry" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="NKQ-LE-Uer">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
@@ -856,7 +856,7 @@
                                 </customSpacing>
                             </stackView>
                             <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bzU-4G-Qmz">
-                                <rect key="frame" x="18" y="93" width="207" height="25"/>
+                                <rect key="frame" x="17" y="93" width="209" height="25"/>
                                 <popUpButtonCell key="cell" type="push" title="Saved Timers" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="0bd-FC-QF4" id="XJp-Pk-svw">
                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="menu"/>
@@ -870,10 +870,10 @@
                                 </popUpButtonCell>
                             </popUpButton>
                             <stackView distribution="fillEqually" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XWt-lO-xRB">
-                                <rect key="frame" x="20" y="33" width="202" height="45"/>
+                                <rect key="frame" x="20" y="35" width="202" height="44"/>
                                 <subviews>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mYv-rG-aLl">
-                                        <rect key="frame" x="3" y="29" width="196" height="16"/>
+                                        <rect key="frame" x="3" y="28" width="196" height="16"/>
                                         <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="New Timer" id="rza-gt-Jfe">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -881,7 +881,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="J7x-Kz-tFN">
-                                        <rect key="frame" x="3" y="-3" width="197" height="25"/>
+                                        <rect key="frame" x="2" y="-4" width="199" height="25"/>
                                         <popUpButtonCell key="cell" type="push" title="Project" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="1SI-GP-7zi" id="7Ie-AJ-vRZ">
                                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="menu"/>
