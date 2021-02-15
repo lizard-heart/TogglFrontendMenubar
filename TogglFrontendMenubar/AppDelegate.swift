@@ -16,8 +16,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         return NSApp.delegate as! AppDelegate
     }
     
+    lazy var app: Application = Application.default()
+    
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
+        app.start()
         statusItem.button?.title = "⌛️"
         statusItem.button?.target = self
         statusItem.button?.action = #selector(showSettings)
